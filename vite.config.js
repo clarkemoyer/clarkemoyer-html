@@ -4,7 +4,7 @@ import handlebars from "vite-plugin-handlebars";
 
 // Define the repository name based on your GitHub Pages setup.
 // This is used as the base path when building for production.
-const repoName = "clark-mayer";
+const repoName = "clarkemoyer-html";
 
 export default defineConfig(({ command }) => {
   // Check if we are in 'build' mode (production) or 'serve' mode (development)
