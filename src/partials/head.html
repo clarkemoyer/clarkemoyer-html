@@ -1,5 +1,6 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="description" content="Homepage of all Clarke Moyer Activities" />
 <meta name="robots" content="max-image-preview:large" />
 <link rel="canonical" href="{{ base }}" />
 
@@ -8,7 +9,8 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link rel="dns-prefetch" href="https://unpkg.com" />
 <link rel="dns-prefetch" href="https://www.google-analytics.com" />
-<link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@400;700&family=Lora:wght@400;700&display=swap" rel="stylesheet" />
+<link rel="dns-prefetch" href="https://hb.wpmucdn.com" />
+<link href="https://fonts.googleapis.com/css?family=Alegreya+Sans%3A400%2C400i%2C700%7CLora%3A400%2C700&#038;display=swap&#038;ver=1.4.0" rel="stylesheet" />
 
 <!-- Preload LCP image -->
 <link rel="preload" as="image" href="/src/imgs/Clarke-Moyer-CM-Logo.jpg" />
@@ -22,20 +24,57 @@
 <meta http-equiv="Cache-Control" content="max-age=3600, must-revalidate" />
 
 <!-- Favicon -->
-
 <link rel="icon" href="/src/imgs/cropped-Clarke-Moyer-CM-Logo-3D-Black-1-scaled-1-32x32.jpg" sizes="32x32" />
 <link rel="icon" href="/src/imgs/cropped-Clarke-Moyer-CM-Logo-3D-Black-1-scaled-1-32x32.jpg" sizes="192x192" />
 <link rel="apple-touch-icon" href="/src/imgs/cropped-Clarke-Moyer-CM-Logo-3D-Black-1-scaled-1-32x32.jpg" />
 <meta name="msapplication-TileImage" content="/src/imgs/cropped-Clarke-Moyer-CM-Logo-3D-Black-1-scaled-1-32x32.jpg" />
 
-<link rel="stylesheet" id="essence-pro-css" href="/src/css/a47b0b9f-1b9c-467f-bb13-ad4f615afcfe.css" onload="this.media='all'" />
-<noscript><link rel="stylesheet" href="/src/css/a47b0b9f-1b9c-467f-bb13-ad4f615afcfe.css" /></noscript>
+<!-- CSS -->
+<style>
+    .lazyload,
+    .lazyloading {
+        max-width: 100%;
+    }
+</style>
+<link rel="stylesheet" id="inline-styles-css" href="/src/css/inline-styles.css" />
+<link rel="stylesheet" id="atomic-blocks-fontawesome-css" href="/src/css/atomic-blocks-fontawesome.css" media="all" />
+<link rel="stylesheet" id="genesis-blocks-style-css-css" href="/src/css/genesis-blocks-style.css" media="all" />
+<link rel="stylesheet" id="essence-pro-css" href="/src/css/essence-pro.css" media="all" />
+<link rel="stylesheet" id="ionicons-css" href="https://unpkg.com/ionicons@4.1.2/dist/css/ionicons.min.css" media="all" />
+<link rel="stylesheet" id="essence-pro-gutenberg-css" href="/src/css/essence-pro-gutenberg.css" media="all" />
+<link rel="stylesheet" id="branda-cookie-notice-front-css" href="/src/css/branda-cookie-notice.css" media="all" />
 
-<link rel="stylesheet" id="atomic-blocks-style-css-css" href="/src/css/e0e565a7-c547-43bf-8df5-c325796325b4.css" onload="this.media='all'" />
-<noscript><link rel="stylesheet" href="/src/css/e0e565a7-c547-43bf-8df5-c325796325b4.css" /></noscript>
+<!-- Scripts (jQuery) -->
+<script src="https://hb.wpmucdn.com/clarkemoyer.com/55373563-4bdc-4c98-bb7b-6cad67da31c1.js" id="jquery-core-js"></script>
+<script src="https://hb.wpmucdn.com/clarkemoyer.com/1e4af0ea-fa7a-427b-84fb-f506b2bafafe.js" id="jquery-migrate-js"></script>
 
-<link rel="stylesheet" id="ionicons-css" href="/src/css/ionicons.min.css" onload="this.media='all'" />
-<noscript><link rel="stylesheet" href="/src/css/ionicons.min.css" /></noscript>
+<script>
+    document.documentElement.className = document.documentElement.className.replace('no-js', 'js');
+</script>
+<style>
+    .no-js img.lazyload {
+        display: none;
+    }
 
-<link rel="stylesheet" id="essence-pro-gutenberg-css" href="/src/css/1f9269bd-9edd-4b9b-87d7-4c8d761af54f.css" onload="this.media='all'" />
-<noscript><link rel="stylesheet" href="/src/css/1f9269bd-9edd-4b9b-87d7-4c8d761af54f.css" /></noscript>
+    figure.wp-block-image img.lazyloading {
+        min-width: 150px;
+    }
+
+    .lazyload,
+    .lazyloading {
+        --smush-placeholder-width: 100px;
+        --smush-placeholder-aspect-ratio: 1/1;
+        width: var(--smush-image-width, var(--smush-placeholder-width)) !important;
+        aspect-ratio: var(--smush-image-aspect-ratio, var(--smush-placeholder-aspect-ratio)) !important;
+    }
+
+    .lazyload, .lazyloading {
+        opacity: 0;
+    }
+
+    .lazyloaded {
+        opacity: 1;
+        transition: opacity 400ms;
+        transition-delay: 0ms;
+    }
+</style>
